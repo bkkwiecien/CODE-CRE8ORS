@@ -33,6 +33,80 @@
   <link rel="stylesheet" href="../assets/css/plugins/animate.css">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../assets/css/theme_7.css">
+  <style>
+    .about-us-container {
+        max-width: 90%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 40px 20px;
+        text-align: left;
+        /* flex-wrap: wrap;  */
+    }
+
+    .about-us-image {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+
+    .about-us-image img {
+        width: 75%;
+        height: auto;
+        border-radius: 10%;
+        margin-left: 150px;
+    }
+
+    .about-us-content {
+        flex-basis: 50%;
+        max-width: 50%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .about-us-header {
+        font-size: 2.5em;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .about-us-text {
+        color: #555;
+        line-height: 1.6;
+        font-size: 1em;
+    }
+
+    @media screen and (max-width: 768px) {
+        .about-us-image,
+        .about-us-content {
+            flex-basis: 100%;
+            max-width: 100%;
+        }
+
+        .about-us-header {
+            font-size: 2em;
+        }
+
+        .about-us-text {
+            font-size: 1em;
+        }
+
+        .about-us-container {
+            flex-wrap: wrap; 
+        }
+    }
+
+    :root {
+        --about-us-text-color: #333;
+    }
+
+    .about-us-container {
+        background-color: var(--about-us-bg-color);
+        color: var(--about-us-text-color);
+    }
+  </style>
 </head>
 
 <body>
@@ -110,7 +184,7 @@
     </div>
   </header>
   <!-- End Header Section -->
-  
+
   <!-- Start Hero -->
   <div class="cs-hero cs-style8 cs-type1 cs-center text-center">
     <div class="container">
@@ -124,6 +198,23 @@
     </div>
   </div>
   <!-- End Hero -->
+
+  <!-- Start our history -->
+  <div class="about-us-container">
+    <div class="about-us-image">
+        <img src="/assets/img/cre8ors/our-history.png" alt="Our Team" />
+    </div>
+    <div class="about-us-content">
+        <h2 class="about-us-header">OUR HISTORY</h2>
+        <p class="about-us-text">
+          CodeCre8ors sprang from the dreams of a child prodigy programmer, whose fascination with code grew into a calling. Our founder, ingrained in tech from the earliest days, envisioned a company that would craft cutting-edge solutions. With CodeCre8ors, that vision became a reality, bringing together a crew of tech talents committed to innovation.
+        </p>
+        <p class="about-us-text">
+            Together, we’ve nurtured a space where creativity in technology thrives, turning complex visions into user-friendly realities. Each project is a testament to our founder's early zeal, channeled through a team that embodies expertise and enthusiasm. As CodeCre8ors continues to expand, we remain rooted in our mission: to empower our clients and lead the way in the digital future.
+        </p>
+    </div>
+  </div>
+  <!-- End our history -->
 
   <!-- Start About -->
   <div class="cs-bg" data-src="../assets/img/design-agency/icon-box-bg.jpg">
