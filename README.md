@@ -8,5 +8,17 @@ Frontend: HTML, CSS, JavaScript
 CSS Framework: Bootstrap
 Hosting: Firebase
 
+## Colro palette 
+#ffdc5e
+#3da153
+
+## SERVICES 
+- web development
+- app development
+- SaaS solutions 
+- Hosting
+
+
+
 ## LICENSE 
 Copyright © 2023 CODE CRE8ORS. All rights reserved.
