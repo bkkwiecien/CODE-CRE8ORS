@@ -1,0 +1,48 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/about",
+        "destination": "/about.html"
+      },
+      {
+        "source": "/contact",
+        "destination": "/contact.html"
+      },
+      {
+        "source": "/apps",
+        "destination": "/apps-development-details.html"
+      },
+      {
+        "source": "/websites",
+        "destination": "/website-development-details.html"
+      },
+      {
+        "source": "/saas",
+        "destination": "/saas-development-details.html"
+      },
+      {
+        "source": "/hosting",
+        "destination": "/hosting-details.html"
+      },
+      {
+        "source": "/policy",
+        "destination": "/privacy-policy.html"
+      },
+      {
+        "source": "/services",
+        "destination": "/service.html"
+      }
+    ]
+  }
+}
